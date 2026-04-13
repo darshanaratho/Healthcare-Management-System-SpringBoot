@@ -89,17 +89,19 @@ spring.datasource.password=your_password
 
   ## 📸 Screenshots
 
-### Home Page
-![Index](screenshot/index.png)
+## Screenshots
 
-### Doctor Page
-![Doctor](screenshot/doctor.png)
+### Home
+![index](src/main/resources/static/screenshots/index.png)
 
-### Patient Page
-![Patient](screenshot/patient.png)
+### Doctor
+![Doctor](src/main/resources/static/screenshots/doctor.png)
 
-### Appointment Page
-![Appointment](screenshot/appointment.png)
+### Patient
+![Patient](src/main/resources/static/screenshots/patient.png)
+
+### Appointment
+![Appointment](src/main/resources/static/screenshots/appointment.png)
 ---
 
 ## 🎯 Future Enhancements
