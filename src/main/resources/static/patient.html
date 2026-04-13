@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="goBack()">⬅ Back</button>
+
+<h2>Patient Management</h2>
+
+<!-- ADD -->
+<h3>Add Patient</h3>
+<input id="name" placeholder="Name">
+<input id="age" placeholder="Age">
+<button onclick="addPatient()">Add</button>
+
+<!-- UPDATE -->
+<h3>Update Patient</h3>
+<input id="updateId" placeholder="ID">
+<input id="updateName" placeholder="New Name">
+<input id="updateAge" placeholder="New Age">
+<button onclick="updatePatient()">Update</button>
+
+<!-- TABLE -->
+<h3>Patient List</h3>
+<table border="1" align="center">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="patientTable"></tbody>
+</table>
+
+<script>
+function goBack() {
+    window.location.href = "index.html";
+}
+</script>
+<script src="js/patient.js"></script>
+</body>
+</html>
